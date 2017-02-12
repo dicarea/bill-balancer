@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item_new_mate"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/mate_new"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_item_reset_group"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/reset"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_item_calculation_mode"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="@string/mate_calc_mode"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_item_log"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/log"
+        app:showAsAction="never"/>
+</menu>

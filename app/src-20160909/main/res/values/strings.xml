@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">GesPagos</string>
+    <string name="mate_new">New Mate</string>
+    <string name="mate_save">Save Mate</string>
+    <string name="mate_delete">Delete Mate</string>
+    <string name="confirm_delete">Are you sure you want to delete?</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="deleted">Deleted !</string>
+    <string name="saved">Saved !</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="process_payment">Payment Processed !</string>
+    <string name="reset">Reset</string>
+    <string name="mate_calc_mode">Pro</string>
+    <string name="log">Log</string>
+    <string name="group.name">Group Name</string>
+    <string name="group_delete">Delete</string>
+    <string name="group_save">Save</string>
+</resources>

@@ -1,0 +1,20 @@
+<cuenta>
+    <id></id>
+    <name></name>
+    <fecha></fecha>
+    <lugar></lugar>
+    <groups>
+        <group>
+            <id></id>
+            <name></name>
+            <pagos>
+                <ticket>
+
+                </ticket>
+            </pagos>
+            <deuda></deuda>
+            <groups></groups>
+            <numNenes></numNenes>
+        </group>
+    </groups>
+</cuenta>

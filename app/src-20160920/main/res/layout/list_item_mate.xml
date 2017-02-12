@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+    >
+
+    <TextView
+        android:id="@+id/mate_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/mate_item_payment"
+        android:text="MATE NAME PRINCIPAL"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/mate_item_second_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/mate_item_name"
+        android:layout_toLeftOf="@+id/mate_item_payment"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/mate_item_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payed 25 of 37 rounds"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/mate_item_multi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="PI: 128"
+            android:textColor="@color/lime"
+            android:textSize="18dp"
+            />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/mate_item_payment"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/round_corner"
+        android:gravity="center_vertical|center_horizontal"
+        android:src="@drawable/payment"
+        />
+
+    <ToggleButton
+        android:id="@+id/list_item_mate_button_mate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:visibility="gone"/>
+
+    <ToggleButton
+        android:id="@+id/list_item_mate_button_multiplier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/list_item_mate_button_payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:visibility="gone"/>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item_new_mate"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/mate_new"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/group_edit"
+        android:title="@string/edit_group"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_item_reset_group"
+        android:title="@string/reset"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_item_log"
+        android:title="@string/log"
+        app:showAsAction="never"/>
+
+</menu>

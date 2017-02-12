@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_add_group"
+            android:icon="@android:drawable/ic_input_add"
+            android:checkable="false"
+            android:title="Add Group"/>
+    </group>
+
+    <group
+        android:id="@+id/grp2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_groups_item"
+            android:title="Groups">
+            <menu android:id="@+id/drawer_groups_menu"/>
+        </item>
+    </group>
+
+    <group
+        android:id="@+id/grp3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:checkable="false"
+            android:title="Settings"/>
+        <item
+            android:id="@+id/drawer_help"
+            android:icon="@android:drawable/ic_menu_help"
+            android:checkable="false"
+            android:title="Help"/>
+    </group>
+
+</menu>
